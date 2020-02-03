@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+f@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 /*
 	Editorial by HTML5 UP
@@ -1221,12 +1221,20 @@ input[type="radio"] + label:before {
     font-family: 'Font Awesome 5 Brands'; }
 
 /* Image */
+
+#main > div > section:nth-child(4) > div > article:nth-child(3) > a > img{
+  
+  object-fit: contain;
+}
+
 .image {
+  
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
   position: relative; }
   .image img {
+   
     border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
